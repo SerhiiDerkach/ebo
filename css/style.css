@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1340px;
+}
+.header {
+}
+.nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 12px 0px 5px 0px;
+    max-width: 129px;
+    min-height: 30px;
+    cursor: pointer;
+}
+.header__nav__ol{
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+.header__nav__ol li{
+    cursor: pointer;
+    margin: 0px 20px;
+}
+.header__nav__button{
+    color: #FFFFFF;
+    margin-left: auto ;
+    width: 207px;
+    height: 47px;
+    background: #079FD0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header__contents {
+    height: 90vh;
+    position: relative;
+    background: #C4C4C4AD;
+    width: 77.292vw;
+}
+.header__contents__content {
+    padding: 112px 0px 40px 113px;
+}
+.header__contents__content h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18vw;
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+}
+.header__contents__content p:first-of-type {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.438vw;
+    text-transform: uppercase;
+}
+.header__contents__content p:last-of-type {
+    margin-top: 40px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.header__content__img{
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translateY(-50%);
+}
+.header__content__img img{
+   max-width: 624px;
+   max-height: 416px;
+   width: 40vw;
+}
+
+.ebo__has {
+    margin-top: 100px;
+    display: flex;
+}
+.image__container {
+    flex: 1 0 50%;
+}
+.text__container {
+    flex: 1 0 50%;
+}
+.card__text {
+    padding-left: 100px;
+    padding-right: 80px;
+}
+.card__text2 {
+    padding-left: 80px;
+    padding-right: 120px;
+}
+
+.card__h2{
+    color: #079FD0;
+    font-size: 3vw;
+    padding-bottom: 40px;
+}
+.card__p{
+    font-size: 1.500vw;
+    font-weight: 300;
+    text-align: left;
+}
+.card__button{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #079FD0;
+    font-size: 1.125vw;
+    font-weight: 500;
+    text-align: left;
+}
+
+.additionally {
+    margin: 100px 0px;
+}
+.additionally__title h2{
+    text-align: center;
+    color: #079FD0;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+.additionally__cards {
+    display: flex;
+    gap: 60px;
+}
+.additionally__card {
+    flex: 1 1 33.333%;
+}
+.additionally__card__title h3{
+    margin-top: 50px;
+    padding-right: 40px;
+    color: #079FD0;
+    font-size: 1.875vw;
+    font-weight: 400;
+}
+.additionally__card__text {
+    padding-right: 50px;
+    margin-top: 30px;
+    font-size: 1.250vw;
+    font-weight: 300;
+}
+.card__button {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 67px;
+    background-color: #C4C4C433;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 44vh;
+}
+
+.footer__items {
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 7.500vw;
+}
+.footer__links ol {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.footer__links ol li a{
+    color: #000000;
+}
+.footer__rights p{
+    font-weight: bold;
+}
